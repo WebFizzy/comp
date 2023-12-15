@@ -1062,7 +1062,7 @@ nav {
   .nav-menu li {
     width: 100%;
     background: var(--color-gray-300);
-    border-top: 1px solid var(--color-gray-600);
+    border-bottom: 1px solid var(--color-gray-600);
   }
 
   .nav-menu li a {
