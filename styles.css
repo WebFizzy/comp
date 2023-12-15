@@ -228,14 +228,14 @@ nav {
 }
 
 .sliding-1 {
-  background-image:   linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('../images/graph.jpg');
+  background-image:   linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('./images/graph.jpg');
   background-position: fixed;
   background-size: cover;
   min-height: 90vh;
   height: 60%;
 }
 .sliding-2 {
-  background-image: linear-gradient(to right, rgba(15, 15, 15, 0.7), rgba(0, 0, 0, 0.2)), url('../images/pexels-edmond-dantès-4342493.jpg');
+  background-image: linear-gradient(to right, rgba(15, 15, 15, 0.7), rgba(0, 0, 0, 0.2)), url('./images/pexels-edmond-dantès-4342493.jpg');
   background-position: fixed;
   background-size: cover;
   min-height: 90vh;
@@ -244,7 +244,7 @@ nav {
 }
 
 .sliding-3 {
-  background-image: linear-gradient(rgba(15, 15, 15, 0.3), rgba(0, 0, 0, 0.8)), url('../images/architecture-1048092_1280.jpg');
+  background-image: linear-gradient(rgba(15, 15, 15, 0.3), rgba(0, 0, 0, 0.8)), url('./images/architecture-1048092_1280.jpg');
   background-position: fixed;
   background-size: cover;
   min-height: 90vh;
@@ -500,7 +500,7 @@ nav {
 
 /* second swiper sec */
 #icon-sec {
-  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), #181818cc), url('../images/meeting-5395615_1280.jpg');
+  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), #181818cc), url('./images/meeting-5395615_1280.jpg');
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -757,7 +757,7 @@ nav {
 
 /* about page */
 #icon-sec2 {
-  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), #181818cc), url('../images/meeting-5395615_1280.jpg');
+  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), #181818cc), url('./images/meeting-5395615_1280.jpg');
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -790,7 +790,7 @@ nav {
 
 /* plans page */
 #plan-pg {
-  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(24, 24, 24, 0.8)), url('../images/intro-video.jpg');
+  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(24, 24, 24, 0.8)), url('./images/intro-video.jpg');
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -878,7 +878,7 @@ nav {
 
 /* faq page */
 #iconn {
-  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(24, 24, 24, 0.8)), url('../images/pexels-alphatradezone-5831254.jpg');
+  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(24, 24, 24, 0.8)), url('./images/pexels-alphatradezone-5831254.jpg');
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -983,7 +983,7 @@ nav {
 
 /* terms page */
 #terms {
-  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(24, 24, 24, 0.8)), url('../images/meeting-5395615_1280.jpg');
+  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(24, 24, 24, 0.8)), url('./images/meeting-5395615_1280.jpg');
   background-position: fixed;
   background-size: cover;
   min-height: 50vh;
