@@ -1349,7 +1349,7 @@ nav {
     width: 100%;
   } 
 
-  
+  /*  slide sec */
   .slide-sec {
     width: 90%;
     background: inherit; 
@@ -1365,7 +1365,12 @@ nav {
   .slide-sec, figcaption {
     width: 100%;
   }
-  
+
+    /* faq page */
+  .acc-container {
+    width: 100%;
+  }
+
 
   /* Patnerships */
   .partners {
