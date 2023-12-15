@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icons/logo (1).png" type="image/png">
+    <title>TradeShareInc</title>
+
+    <link rel="stylesheet" href="./styles/splide.css">
+
+    
+    <!-- ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--Animate on scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google font (poppins $ outfit)-->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@300&family=Outfit:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--Swiperjs cdn link------>   
+    <link rel="stylesheet" href="styles/swiper.css"> 
+    
+
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <nav>
+      <div class="container1 nav-container">
+        <a class="nav-logo" href="index.html">
+          <img src="./icons/logo (1).png" alt="navbar logo">
+        </a>  
+
+        <ul class="nav-menu nav-m-pg">
+          <li><a href="#home">Home</a></li>
+          <li><a href="./about.html">Services</a></li>
+          <li><a href="./plan.html">Pricing</a></li>
+          <li><a href="./faq.html">FAQs</a></li>
+          <li><a href="https://coinmarketcap.com/currencies/bitcoin/">Bitcoin Price</a>
+          </li>
+          <li class="loggg"><a href="{{ url('log-in') }}">Login</a></li>
+          <li class="reg"><a href="{{ url('register') }}">Get Started</a></li>
+        </ul>
+        <div class="nav-buttons">
+          <button class="nav-theme-btn"><i class="uil uil-moon"></i></button>
+          <button class="nav-toggle-open"><i class="uil uil-bars"></i></button>
+          <button class="nav-toggle-close"><i class="uil uil-multiply"></i></button>
+        </div>
+      </div>
+    </nav>
+
+    <!------------------END OF NAV----------------->  
+
+    
+    <div class="header" id="home">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide sliding-1" id="grad">
+            <div class="swipe swipo" data-aos="fade-right"
+            >
+              <div class="swipe-cont"  >
+                <p>Your future is created by</p>
+                <h1>What you do today</h1>
+              </div>
+              <div class="swipe-cont2">
+                <p>Start Trading the World Most Popular Cryptocurrencies
+                  <br> 
+                Just enjoy the rest rate while we are doing the rest for you</p>
+              </div>
+              <div class="swipe-btn">
+                <a href="" class="btn primary butt">Our Services</a>
+                <a href="" class="btn butt">Contact Us</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide sliding-2" id="grad">
+            <div class="swipe mid-swipe">
+              <div class="swipe-cont solu">
+                <h1>We provide solutions to grow your dream</h1>
+              </div>
+              <div class="swipe-btn bbtn">
+                <a href="" class="btn primary butt">Our Plan</a>
+                <a href="" class="btn butt">Contact Us</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide sliding-3" id="grad">
+            <div class="swipe swipo">
+              <div class="swipe-cont">
+                <p>Your future is created by you and</p>
+                <h1>We care about your growth</h1>
+              </div>
+              <div class="swipe-cont2">
+                <p>We Provide Professional Market Infrastructure Firms.
+                  <br>  
+                We Are The Leaders Of Financial Investment Market</p>
+              </div>
+              <div class="swipe-btn">
+                <a href="" class="btn primary butt">FAQs</a>
+                <a href="" class="btn butt">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+      </div>
+    </div>
+    
+    <section id="about">
+      <div class="container">
+        <div class="about-container">
+          <div class="abt-first">
+            <p>About Us</p>
+            <h2>We offer the best cryptocurrency investment platform</h2>
+          </div>
+ 
+          <div class="abt-second" data-aos="fade-up"
+          data-aos-delay="400">
+            <p>
+              We use advanced security measures to protect users' funds and personal information. These firm was licensed to be user-friendly, making it easy for even novice to invest with them
+            </p>          
+              
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+              <span><i class="uil uil-signal-alt-3"></i></span>
+              <div class="insur">
+                <h3>Stable Income</h3>
+                <p>We trade different types of Cryptocurrency to maximize proffit</p>
+              </div>
+            </div>
+            <div class="box" data-aos="fade-up"
+            data-aos-delay="300">
+              <span><i class="uil uil-bitcoin-circle"></i></i></span>
+              <div class="insur">
+                <h3>Invest With Cryptocurrency</h3>
+                <p>We offer a wide range of Cryptocurrency investments</p>
+              </div>
+            </div>
+            <div class="box" data-aos="fade-up"
+            data-aos-delay="400">
+              <span><i class="uil uil-money-withdrawal"></i></span>
+              <div class="insur">
+                <h3>Instant Withdrawal</h3>
+                <p>All withdrwal payment are automated for fast processing
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="abt-image" data-aos="fade-left">
+          <img src="./images/about_2.png" alt="">
+        </div>
+      </div>
+    </section>
+    
+    <section id="markets">
+      <div class="container">
+        <div class="service-container" data-aos="fade-in">
+          <h2>Market Services</h2>
+          <P>Sumamary of our shares as notably low-cost share dealing in the U.K. is offered by market disruptors such as TradeShareInc.com, Capital.com, Freetrade, Trading 212 and CMC Invest, who cite zero-commission trading — although there are some other costs and fees users may incur, </P>
+        
+          <div class="services">
+            <div class="service">
+              <img src="./images/forex (2).jpg" alt="forex">
+              <h4>Forex Trading</h4>
+              <p>
+                Forex (FX) is a portmanteau of the words foreign [currency] and exchange. Foreign exchange is the process of changing one currency into another for various reasons, usually for commerce, trading, or tourism.
+              </p>
+            </div>
+            <div class="service">
+              <img src="./images/agriculture.jpg" alt="agriculture">
+              <h4>
+                Agriculture
+              </h4>
+              <p>
+                Literally buying a farm isn't a feasible strategy for the average investor.Fortunately, investors have many other means to gain exposure to the sector beyond sinking money into a farm.
+              </p>
+            </div>
+            <div class="service">
+              <img src="./images/gold.jpg" alt="gold">
+              <h4>
+                Gold and Precious Metals
+              </h4>
+              <p>
+                Gold and silver have been recognized as valuable metals and were highly coveted by ancient civilizations. Precious metals still have their place in a savvy investor's portfolio in modern times.
+              </p>
+            </div>
+            <div class="service">
+              <img src="./images/oil n gas.jpg" alt="oil $ gas">
+              <h4>                Oil and Gas</h4>
+              <p>
+               The oil and gas industry is one of the largest sectors in the world in terms of dollar value, generating an estimated $5 trillion in global revenue as of 2022
+              </p>
+            </div>
+            <div class="service">
+              <img src="./images/crypto1.jpg" alt="cryptocurrency">
+              <h4>
+                Cryptocurrency Investment
+              </h4>
+              <p>
+               This is becoming the "New Money" in the finance industry, making waves and amazing returns on invested capital.
+              </p>
+            </div>
+            <div class="service">
+              <img src="./images/real est.jpg" alt="real estate">
+              <h4>
+                Real Estate Mgt.
+              </h4>
+              <p>
+               Real estate investing, even on a very small scale, remains a tried and true means of building an individual's cash flow nd wealth.
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    <section id="video">
+      <div class="container">
+        <div class="video-container">
+    
+          <div class="video-sec">
+            <div class="video-cont" data-aos="fade-right">
+              <h2>
+                Over 7 Years of Experience
+              </h2>
+              <p>
+                With a large investor community, we can assure you the best profit earning opportunity. So grab the chance and ensure your equal share from us. Because we want to grow with your development in this trading industry. So make it happen now!
+              </p>
+            </div>
+            <div class="cont-icon">
+              <div class="run">
+                <span>
+                  <i class="uil uil-users-alt"></i>
+                </span>
+                <div class="runn"> 
+                  <div id="countdown">39964</div>
+                  <p>Happy Clients</p>
+                </div>
+              </div>
+              <div class="run">
+                <span>
+                  <i class="uil uil-bill"></i>
+                </span>
+    
+                <div class="runn">
+                  <div id="countdown2">490</div>
+                  <p>Running Investment</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <img class="thumbnail"
+            data-id="l3xdpzQqfV2du8-C"
+            src="./images/intro-video.jpg"
+            alt=""
+          />
+<!-- 
+          <div class="play-icon"><i class="uil uil-play-circle"></i></div> -->
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section id="plan">
+      <div class="container">
+        <div class="plan-container">
+          <div class="plan-head">
+            <p>Investment Plan</p>
+            <h2>
+              Choose your flexible investment plan
+            </h2>
+          </div>
+          
+          <div class="plans">
+            <div class="braze-plan" data-aos="fade-up"
+            data-aos-delay="100">
+              <p class="braze">Starter-PLAN</p> 
+              <p id="amt"> $200 - $499</p>               <p id="int">2.0% daily</p>
+              <p id="days">For 5 Days</p>
+              <p>5% Referral Commission</p>
+              <a class="btn sm primary" href="sign1-in.html">Invest</a>
+            </div>
+            <div class="braze-plan" data-aos="fade-up"
+            data-aos-delay="200">
+              <p class="braze">Silver-PLAN</p> 
+              <p id="amt">$500 - $999</p>
+              <p id="int">2.5% daily </p>
+              <p id="days">For 6 Days</p>
+              <p>5% Referral Commission</p>
+              <a class="btn sm primary" href="sign1-in.html">Invest</a>
+            </div>
+            <div class="braze-plan" data-aos="fade-up"
+            data-aos-delay="300">
+              <p class="braze">Elite-PLAN</p> 
+              <p id="amt">$1000 - $10,000</p>
+              <p id="int">3.0% daily</p>
+              <p id="days">For 7 Days</p>
+              <p>5% Referral Commission</p>
+              <a class="btn sm primary" href="sign1-in.html">Invest</a>
+            </div>
+            <div class="braze-plan" data-aos="fade-up"
+            data-aos-delay="500">
+              <p class="braze">Premium-Plan</p> 
+              <p id="amt">$10,000 - Unlimited</p>
+              <p id="int">4.0% daily</p>
+              <p id="days">For 7 Days</p>
+              <p>5% Referral Commission</p>
+              <a class="btn sm primary" href="sign1-in.html">Invest</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    <section id="stock" class="stock-section">
+      <div class="container">
+        <div class="stock-container">
+          <div class="stock-head">
+            <h2>
+              Runner up: TradeShareInc Broker, best for Professional traders and research
+            </h2>
+            <p>
+              TradeShareInc Brokers is a great choice, not just for professional traders in the U.K., but also for retail investors who need access to a wide range of global markets such as Cryptocurrency, Forex, Estate management, Agriculture, Gold, Oil & Gas etc, in addition to local markets. The Trader Workstation (TWS) platform and more recently launched platforms GlobalTrader and impact come with a multitude of features and trading tools, including dozens of research channels, comprehensive educational content, and competitive commissions. They also offer stocks and shares ISAs
+            </p>
+          </div>
+          <div class="bank-img">
+            <img src="./images/bank uk.webp" alt="">
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section id="btc">
+      <div class="container btc-container">
+        <div class="btc-cont">
+          <div class="btc-head">
+            <p>Markets</p>
+            <h2>
+              Recent Market Cap
+            </h2>  
+          </div>
+
+          <div class="container2">
+            <div class="cols">
+              <div class="btcwdgt-chart" bw-theme="dark"></div>
+            
+              <div class="btcwdgt-chart" bw-cash="true"></div>
+            </div>
+          </div>
+          <div
+            id="crypto-widget-CoinList"
+            
+            data-theme="dark"
+            data-design="modern"
+            data-coin-ids="1,166,382,136,20">
+          </div>
+        </div>
+      </div>
+      
+      <script src="https://price-static.crypto.com/latest/public/static/widget/index.js"></script>
+    </section>
+    
+    <section id="icon-sec">
+      <div class="container icons">
+        <div class="icon-container">
+          <div class="run2">
+            <span>
+              <i class="uil uil-users-alt"></i>
+            </span>
+            <div class="c-run">
+              <b>$853,458</b>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+          <div class="run2">
+            <span>
+              <i class="uil uil-chart-line"></i>
+            </span>
+            <div class="c-run">
+              <b>945%</b>
+              <p>Investment Growth</p>
+            </div>
+          </div>
+          <div class="run2">
+            <span>
+              <i class="uil uil-bill"></i>
+            </span>
+            <div class="c-run">
+              <b>$48,025,345</b>
+              <p>Running Investment</p>
+            </div>
+          </div>
+          <div class="run2">
+            <span>
+              <i class="uil uil-coins"></i>
+            </span>
+            <div class="c-run">
+              <b>$45,345,345</b>
+              <p>Successful Investment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- slide section -->
+    
+      <div class="slide-sec">
+        <div id="main-carousel" class="splide" aria-label="My Awesome Gallery">
+          <div class="splide__track">
+          <ul class="splide__list" data-aos="fade-in">
+            <li class="splide__slide">
+              <figure class="swiper-slide2">
+                <figcaption>
+                  I have recommended TradeShareInc to seversl of my friends and family members as i believe it's one of the best investment platforms out here. their competitive fees, excellent customer service and high returns make them a reliable choice for anyone looking to invest in cryptocurrency and the stocks
+                </figcaption>
+                <div class="swiper-client2">
+                  <div class="swiper-client-avater2">
+                    <img src="./images/testimonial2.jpg" alt="">
+                  </div>
+                  <div class="swiper-client-details2">
+                    <h5>Zachary M..</h5>
+                    <small>CEO-Founder</small>
+                  </div>
+                </div>
+              </figure>
+            </li>
+            <li class="splide__slide">
+              <figure class="swiper-slide2">
+                <figcaption>
+                  TradeShareInc has exceeded my expectations in terms of security and reliability. Their advanced security measures ensure that my investments are safe from any potential threats. Additionally, the platform is always up-to-date with the latest market trends whic helps me make informed investment decisions."
+                </figcaption>
+                <div class="swiper-client2">
+                  <div class="swiper-client-avater2">
+                    <img src="./images/testimonial1.png" alt="">
+                  </div>
+                  <div class="swiper-client-details2">
+                    <h5>James Perkins</h5>
+                    <small>PR & Consultant</small>
+                  </div>
+                </div>
+              </figure>
+            </li>
+            <li class="splide__slide">
+              <figure class="swiper-slide2">
+                <figcaption>
+                  I was hesitant to invest in cryptocurrency initially but TradeShareInc made it easy for me to navigate through the intuitive interface made it easy for me to navigate through the platform and invest in various cryptocurrencies. I have seen consistent retures on my investments which has given me confidence in their services," being managed efficiently.
+                </figcaption>
+                <div class="swiper-client2">
+                  <div class="swiper-client-avater2">
+                    <img src="./images/testimonial4.jpg" alt="">
+                  </div>
+                  <div class="swiper-client-details2">
+                    <h5>Alina Lucy</h5>
+                    <small>Marketing</small>
+                  </div>
+                </div>
+              </figure>
+            </li>
+            <li class="splide__slide">
+                <figure class="swiper-slide2">
+                <figcaption>
+                  I have seen consistent retures on my investments which has given me confidence in their services," Their advanced security measures ensure that my investments are safe from any potential threats.
+                </figcaption>
+                <div class="swiper-client2">
+                  <div class="swiper-client-avater2">
+                    <img src="./images/testimonial3.png" alt="">
+                  </div>
+                  <div class="swiper-client-details2">
+                    <h5>Steven Taylor</h5>
+                    <small></small>
+                  </div>
+                </div>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="faq">
+      <div class="container0">
+        <div class="faq-cont">
+          <div class="faq-head">
+            <p>Our FAQs</p>
+            <h2>Frequently asked questions</h2>
+          </div>
+          <div class="acc-container">
+            <button class="acc-btn">How can i invest with TradeShareInc?</button>
+            <div class="acc-content">
+              <p>
+                To make an investment, you must first join TradeShareInc. You can make your first deposit after signing up. All payments must be made via the Members Area. You can log in with the member username and password you created when you signed up
+              </p>
+            </div>
+    
+            <button class="acc-btn">
+              Can i do a direct deposit from my bank account?
+            </button>
+            <div class="acc-content">
+              <p>
+                Because of the currency differences and dollar rate volatility, It's advisable to convert it to cryptocurrency(Bitcoin, Etherum etc) to make your deposit.
+              </p>
+            </div>
+    
+            <button class="acc-btn">
+              Is this Company Trusted?
+            </button>
+            <div class="acc-content">
+              <p>
+                Of course YES! it's Properly Registered, it's been running for years, we've acquired thousands of investors worldwide with pleasant testimonies on TRUSTPILOT and the last but not least we also engaged in properly trading and investing activities that involves all the market sectors to provide enough profits for our investors.
+              </p>
+            </div>
+    
+            <button class="acc-btn">
+              How can i Withdraw Funds?
+            </button>
+            <div class="acc-content">
+              <p>
+                Login to your account using your username and password and check the Withdraw section.
+              </p>
+            </div>
+    
+            <button class="acc-btn">
+              Can I lose Money if i invest TradeShareInc?
+            </button>
+            <div class="acc-content">
+              <p>
+                No you can't lose money not minding Investment is income, with increased risk, so we have partnered with Prudential Financial Inc and insured our client's funds. We are insured for up to $175,000,000USD.
+                We can provide the insurance certificate on request.
+                In general, violating company rules and procedures can result in penalties or even account suspension or termination. If you make investments without following the company's guidelines and recommendations, you may be at a higher risk of losing money. It is important to carefully read and understand the terms and conditions before making any investment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="partners">
+      <div class="container partner">
+        <div class="partner-container">
+          <div class="part">
+            <span>
+              <img src="./icons/client1.png" alt="">
+            </span>
+          </div>
+          <div class="part">
+            <span>
+              <img src="./icons/client7.png" alt="">
+            </span>
+          </div>
+          <div class="part">
+            <span>
+              <img src="./icons/client6.png" alt="">
+            </span>
+          </div>
+          <div class="part">
+            <span>
+              <img src="./icons/client3.png" alt="">
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container foot">
+        <div class="footer-container">
+          <div class="footer">
+            <h3>
+              TradeShareInc.
+            </h3>
+            <p>We offer Global commodity brokerage services, managed futures consultation, direct access trading, and trading system execution services to individuals, corporations and industry professionals.</p>
+          </div>
+
+          <div class="footer">
+            <h3>
+              Useful Link
+            </h3>
+            <a href="./about.html">About Us</a>
+            <a href="./terms.html">Terms</a>
+            <a href="">Login</a>
+            <a href="./faqs.html">FAQ</a>
+            <a href="./contact.html">Contact Us</a>
+          </div>
+
+          <div class="footer">
+            <h3>
+              Chat on Socials
+            </h3>
+            <p>Chat with our 24/7 support team on socials. Don't forget your fund is save wit us always
+             
+            <p class="socials">
+              <a href="https://whatsapp.com/" target="_blank"><i class="uil uil-whatsapp"></i></a>
+              <a href="https://twitter.com" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+              <a href="https://facebook.com/" target="_blank"><i class="uil uil-facebook-f"></i></a>
+              <a href="https://t.me.com/" target="_blank"><i class="uil uil-telegram-alt"></i></a>
+            </p> 
+
+          </div>
+        </div>
+      </div>      
+    </section>
+
+    <footer class="coppy">  
+      <div class="container copies">
+        <div class="copyrights">
+          <div class="copyright">
+            <small>2023 TradeShareInc. &copy; All Rights Reserved.</small>
+          </div>
+          <div class="copyright">
+            <span><a href="./about.html">About Us</a></span>
+            <span><a href="./about.html">Markets</a></span>
+            <span><a href="./plan.html">Plans</a></span>
+            <span><a href="./login.html">Login</a></span>
+          </div>
+        </div>    
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="./main.js"></script>
+
+    <!-- --------END OF SWIPER -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1500, offset:80
+      });
+    </script>
+
+    <script>      
+      var count2 = 510;
+      var speed = 0;
+      timer();
+      function timer() {
+        count2++;
+
+        document.getElementById("countdown2").innerHTML = count2;
+
+        if (count2 >= 579) {
+          return
+        }
+
+        speed = speed + count2 * -11;
+        setTimeout(timer, speed);
+      }
+    </script>
+
+    
+    <script>
+      var count = 39823;
+      var speed = 0;
+      timer();
+
+      function timer() {
+        count++;
+
+        document.getElementById("countdown").innerHTML = count;
+
+        if (count >= 41345) {
+          return;
+        }
+
+        speed = speed + count * -10;
+        setTimeout(timer, speed);
+      };
+
+    </script>
+
+    <script>
+      let thumbnail = document.querySelector(".thumbnail");
+
+      thumbnail.addEventListener("click", () => {
+        let videoUrl = `https://youtu.be/41JCpzvnn_0?si=l3xdpzQqfV2du8-C`
+      })
+
+    </script>
+
+  </body>
+</html>
+
+    
