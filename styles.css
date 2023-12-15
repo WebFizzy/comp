@@ -1035,7 +1035,7 @@ nav {
     width: 85%;
   }
   section {
-    padding: 3rem 0;
+    padding: 5rem 0;
   }
   section > h1, section > p {
      width: var(--container-width-sm);
@@ -1654,7 +1654,7 @@ nav {
     width: 100%;
   }
   .acc-btn {
-    padding: .5rem 0rem;
+    padding: .8rem 0rem;
     font-size: 17px;
   }
   .acc-btn:after {
