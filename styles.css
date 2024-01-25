@@ -249,7 +249,7 @@ nav {
 
 .sliding-1 {
   width: 100%;
-  background-image:   linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('../images/crypto1.jpg');
+  background-image:   linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('./images/crypto1.jpg');
   background-position: fixed;
   background-size: cover;
   min-height: 90vh;
@@ -257,7 +257,7 @@ nav {
 }
 .sliding-2 {
   width: 100%;
-  background-image: linear-gradient(to right, rgba(15, 15, 15, 0.7), rgba(0, 0, 0, 0.2)), url('../images/graph.jpg');
+  background-image: linear-gradient(to right, rgba(15, 15, 15, 0.7), rgba(0, 0, 0, 0.2)), url('./images/graph.jpg');
   background-position: fixed;
   background-size: cover;
   min-height: 90vh;
@@ -267,7 +267,7 @@ nav {
 
 .sliding-3 {
   width: 100%;
-  background-image: linear-gradient(rgba(15, 15, 15, 0.3), rgba(0, 0, 0, 0.8)), url('../images/pexels-edmond-dantès-4342493.jpg');
+  background-image: linear-gradient(rgba(15, 15, 15, 0.3), rgba(0, 0, 0, 0.8)), url('./images/pexels-edmond-dantès-4342493.jpg');
   background-position: fixed;
   background-size: cover;
   min-height: 90vh;
@@ -1467,6 +1467,7 @@ nav {
   }
   .swiper-slide2 {
     margin: 1.5rem auto;
+    max-width: 80%;
   }
   .swiper-client2 {
     gap: 0.8rem;
