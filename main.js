@@ -1,4 +1,23 @@
 
+const btns = document.querySelectorAll(".acc-btn");
+
+// fn
+function accordion() {
+  // this = the btn | icon & bg changed
+  this.classList.toggle("is-open");
+
+  // the acc-content
+  const content = this.nextElementSibling;
+
+  // IF open, close | else open
+  if (content.style.maxHeight) content.style.maxHeight = null;
+  else content.style.maxHeight = content.scrollHeight + "px";
+}
+
+// event
+btns.forEach((el) => el.addEventListener("click", accordion));
+
+
 const swiper = new Swiper('.swiper', {
   autoplay: {
     delay: 15000,
@@ -84,24 +103,6 @@ splide.mount();
 
 
 
-const btns = document.querySelectorAll(".acc-btn");
-
-// fn
-function accordion() {
-  // this = the btn | icon & bg changed
-  this.classList.toggle("is-open");
-
-  // the acc-content
-  const content = this.nextElementSibling;
-
-  // IF open, close | else open
-  if (content.style.maxHeight) content.style.maxHeight = null;
-  else content.style.maxHeight = content.scrollHeight + "px";
-}
-
-// event
-btns.forEach((el) => el.addEventListener("click", accordion));
-
 
 
 // btc graph
@@ -146,3 +147,29 @@ class CountUp {
   // Initialize any number of counters:
   new CountUp('#start1', '#counter1')
   new CountUp('#start2', '#counter2')
+
+   //== theme toggle (light and dark)
+ const themeBtn = document.querySelector('.nav-theme-btn');
+ themeBtn.addEventListener('click', () => {
+   let bodyClass = document.body.className;
+   if(!bodyClass) {
+     bodyClass = 'dark';
+     document.body.className = bodyClass
+     // change toggle icon
+     themeBtn.innerHTML = '<i class="uil uil-sun"></i>'
+     //save theme to local storage
+     window.localStorage.setItem('theme', bodyClass);
+   } else {
+     bodyClass = '';
+     document.body.className = bodyClass;
+     // change toggle icon
+     themeBtn.innerHTML = '<i class="uil uil-moon"></i>';
+     //save theme to local storage
+     window.localStorage.setItem('theme', bodyClass);
+   }
+ })
+ 
+ //load theme on load
+ window.addEventListener('load', () => {
+   document.body.className = window.localStorage.getItem('theme')
+ })
