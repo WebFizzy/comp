@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" href="slide navbar style.css"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@300&family=Outfit:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/min.css">
+
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+
+  </head>
+  <body>    
+    <script>
+      function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+      {pageLanguage: 'en'},
+      'google_translate_element'
+      );
+      }
+    </script>
+    <div id="google_translate_element"></div>
+<!-- 
+    @extends('auth.layout')
+
+    @section('title', "$title - Create account")
+    @section('content')
+     -->
+    
+      <div>
+        <div class="container py-5">
+          <div class="row justify-content-center">
+            <!-- <div class="row">
+              <div class="card col-sm-8 mx-auto">
+                @if (session()->has('success'))
+                  <div class="alert alert-custom alert-indicator-top indicator-success mt-3" role="alert">
+                    <div class="alert-content">
+                      <span class="alert-title">Success!</span>
+                      <span class="alert-text">{{ session()->get('success') }}</span>
+                    </div>
+                  </div>
+                    @endif
+                </div>
+              </div>
+            </div>
+              @if(count($errors) > 0 )
+            <div class="row">
+              <div class="col-sm-8 mx-auto">
+                  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                      <ul class="p-0 m-0" style="list-style: none;">
+                          @foreach($errors->all() as $error)
+                          <li>{{$error}}</li>
+                          @endforeach
+                      </ul>
+                  </div>
+              </div>
+            </div>
+              @endif -->
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-header" style="text-align: center;">
+                  <h4>Register Form</h4>
+                  <p>Please enter your credentials to create an account.</p>
+                </div>
+                <div class="card-body">
+                  <form action="" method="post" id="reg-form">
+                  <input type="hidden" name="referred_by" value="">
+
+                    <div class="mb-3">
+                      <label for="settingsInputFirstName" class="form-label">Name</label>
+                      <input type="text" name="f_name" required value="" class="form-control" placeholder="Enter your name" id="settingsInputFirstName">
+                    </div>           <div class="mb-3">
+                      <label for="settingsInputUserName" class="form-label">Username</label>
+                      <div class="input-group">
+                          <input name="username" required value="" type="text" class="form-control" id="settingsInputUserName" aria-describedby="settingsInputUserName-add" placeholder="Username">
+                      </div>
+                    </div>   
+                    <div class="mb-3">
+                      <label for="" class="form-label">Phone</label>
+                      <input type="number" name="phone" class="form-control" placeholder="Enter your phone number">
+                    </div>
+                    <div class="mb-3">
+                      <label for="country" class="form-label">Country</label>
+                      <select required class="form-control" required name="country" id="country" tabindex="-1">
+                        <option value="">Select Country</option>
+                        <option value=""></option>
+                      </select>
+                    </div>              
+                    <div class="mb-3">
+                      <label for="settingsInputEmail" class="form-label">Email address</label>
+                      <input type="email" name="email" class="form-control" placeholder="Enter your email" id="settingsInputEmail" aria-describedby="settingsEmailHelp">
+                      <div id="settingsEmailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="settingsPhoneNumber" class="form-label">Phone Number</label>
+                      <input type="text" required name="p_number" class="form-control" value=""placeholder="Enter password" id="settingsPhoneNumber">
+                    </div>
+                    <div class="mb-3">
+                      <label for="signUpPassword" class="form-label">Password</label>
+                      <input type="password" required name="password" class="form-control" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" id="signUpPassword">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="settingsInputLastName" class="form-label">Referral Number</label>
+                      <input name="referral_id" readonly value="" type="text" class="form-control" id="settingsInputLastName" placeholder="Put in referral number here (Optional)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="settingsInputLastName" class="form-label">Referral Number</label>
+                        <input name="referral_id" value="" type="text" class="form-control" id="settingsInputLastName" placeholder="Put in referral number here (Optional)">
+                    </div>
+
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <a href="./dashboard.html" class="btn btn-primary auth-submit mt-4" onclick="event.preventDefault();document.getElementById('reg-form').submit();">Sign Up</a>
+                    <br>
+                    Already have an account? <a href="./login.html">Sign In</a>
+
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      @endsection
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/min.js"></script>
+    
+    <!-- <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script> -->
+
+  </body>
+</html>
