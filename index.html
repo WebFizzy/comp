@@ -49,12 +49,16 @@
               href="https://coinmarketcap.com/currencies/bitcoin/">Bitcoin
               Price</a>
           </li>
+          <!-- {{ url('log-in') }} -->
           <li class="loggg"><a
-              href="{{ url('log-in') }}">Login</a></li>
-          <li class="reg"><a
-              href="{{ url('register') }}">Get
+              href="./login.html">Login</a></li>
+          <li 
+          class="reg"><a
+              href="./sign-up.html">Get
               Started</a></li>
         </ul>
+        <!-- {{ url('register') }} -->
+
         <div class="nav-buttons">
           <button class="nav-theme-btn"><i
               class="uil uil-moon"></i></button>
@@ -146,6 +150,8 @@
 
       </div>
     </div>
+    <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+    <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd" background-color="#ffffff" locale="en"></coingecko-coin-price-marquee-widget>
 
     <section id="about">
       <div class="container">
@@ -210,18 +216,10 @@
 
     <section id="markets">
       <div class="container">
-        <div class="service-container"
-          data-aos="fade-in">
-          <h2>Market Services</h2>
-          <p>Sumamary of our shares as notably
-            low-cost share dealing in the U.K. is
-            offered by market disruptors such as
-            TradeShareInc.com, Capital.com,
-            Freetrade, Trading 212 and CMC Invest,
-            who cite zero-commission trading —
-            although there are some other costs
-            and fees users may incur. </p>
-
+        <div class="service-container" data-aos="fade-in">
+          <h2>Our Projects</h2>
+          <P>Sumamary of our shares as notably low-cost share dealing in the U.K. is offered by market disruptors such as TradeShareInc.com, Capital.com, Freetrade, Trading 212 and CMC Invest, who cite zero-commission trading — although there are some other costs and fees users may incur. Your daily percent profit is gotten from these asset and shares listed below.</P>
+    
           <div class="services">
             <div class="service">
               <img src="./images/gold.jpg"
@@ -378,7 +376,7 @@
       <div class="container">
         <div class="plan-container">
           <div class="plan-head">
-            <p>Investment Plan</p>
+            <p>Pricing</p>
             <h2>
               Choose your flexible investment plan
             </h2>
@@ -476,12 +474,8 @@
     <section id="btc">
       <div class="container btc-container">
         <div class="btc-cont">
-          <div class="btc-head">
-            <p>Markets</p>
-            <h2>
-              Recent Market Cap
-            </h2>
-          </div>
+          <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
+          <coingecko-coin-heatmap-widget  height="400" locale="en"></coingecko-coin-heatmap-widget>
 
           <div class="container2">
             <div class="cols">
@@ -500,9 +494,7 @@
           </div>
         </div>
       </div>
-
-      <script
-        src="https://price-static.crypto.com/latest/public/static/widget/index.js"></script>
+      
     </section>
 
     <section id="icon-sec">
@@ -782,27 +774,32 @@
     </section>
 
     <section class="partners">
-      <div class="container partner">
-        <div class="partner-container">
-          <div class="part">
-            <span>
-              <img src="./icons/client1.png" alt>
-            </span>
-          </div>
-          <div class="part">
-            <span>
-              <img src="./icons/client7.png" alt>
-            </span>
-          </div>
-          <div class="part">
-            <span>
-              <img src="./icons/client6.png" alt>
-            </span>
-          </div>
-          <div class="part">
-            <span>
-              <img src="./icons/client3.png" alt>
-            </span>
+      <div class="body__inner-wrapper">
+        <div class="marquee">
+          <div class="marquee__inner-wrap">
+            <div class="marquee__inner">
+    
+              <div class="marquee__img"><img src="./icons/client1.png" alt=""></div>
+    
+              <div class="marquee__img"><img src="./icons/client2.png" alt=""></div>
+    
+              <div class="marquee__img"><img src="./icons/client3.png" alt=""></div>
+    
+              <div aria-hidden="true" class="marquee__img"><img src="./icons/client6.png" alt=""></div>
+    
+              <div class="marquee__img"><img src="./icons/client7.png" alt=""></div>
+    
+              <div class="marquee__img"><img src="./icons/client1.png" alt=""></div>
+    
+              <div class="marquee__img"><img src="./icons/client2.png" alt=""></div>
+    
+              <div class="marquee__img"><img src="./icons/client3.png" alt=""></div>
+    
+              <div aria-hidden="true" class="marquee__img"><img src="./icons/client6.png" alt=""></div>
+    
+              <div class="marquee__img"><img src="./icons/client7.png" alt=""></div>
+    
+            </div>
           </div>
         </div>
       </div>
