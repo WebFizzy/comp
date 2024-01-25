@@ -193,6 +193,7 @@ nav {
 }
 .nav-menu li {
   list-style: none;
+  background: var(--color-gray-700);
 }
 .nav-toggle-open, .nav-toggle-close {
   display: none;
@@ -1124,7 +1125,9 @@ nav {
    
   .nav-menu li {
     width: 100%;
-    background: rgb(43, 42, 42);
+    background: var(--color-gray-700);
+
+/*     background: rgb(43, 42, 42); */
     border-bottom: 1px solid var(--color-gray-600);
   }
 
@@ -1255,7 +1258,7 @@ nav {
    
   .nav-menu li {
     width: 100%;
-    background: rgb(43, 42, 42);
+/*     background: rgb(43, 42, 42); */
     border-bottom: 1px solid var(--color-gray-600);
   }
 
@@ -1767,7 +1770,7 @@ nav {
    
   .nav-menu li {
     width: 100%;
-    background: var(--color-gray-300);
+/*     background: var(--color-gray-300); */
   }
 
   .nav-menu li a {
