@@ -496,10 +496,99 @@ nav {
 .stock-head h2 {
   margin-bottom: 1rem;
 }
+.stock-stats {
+  background-color: rgb(15, 15, 15);
+  margin-top: 20px;
+  padding: 20px 0 20px 0;
+}
+.stockss {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  margin: auto;
+}
+.stock1, .stock2 {
+  width: 50%;
+  display: block;
+}
+.sales .sstock, .sales .sstock {
+  text-align: center;
+  color: white;
+}
+.sales h3 {
+  margin-bottom: 1.8rem;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.divider {
+  height: 50px;
+}
+.stock1 ul, .stock2 ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.stock1 ul li, .stock2 ul li {
+  margin-right: 15px;
+}
+.stock1 ul li span, .stock2 ul li span {
+  color: #fff;
+  font-size: 15px;
+}
+.color1 {
+  background-color: #fa8d0c;
+}
+.color2{
+  background-color: #0eadc9;
+}
+.color3 {
+  background-color: #78c596;
+}
+.color4 {
+  background-color: #4241b8;
+}
+.color5 {
+  background-color: #f17776;
+}
+.chart-box {
+  display: inline-block;
+  vertical-align: middle;
+  width: 6px;
+  height: 6px;
+  margin-right: 5px;
+}
 
-.bank-img {
-  width: 80%;
-  margin: 1rem auto;
+
+
+@media screen and (max-width: 990px) {
+  .stockss {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .stock1, .stock2 {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .sales img {
+    padding-top: 1rem;
+  }
+  .divider {
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .stockss {
+    width: 90%;
+  }
+  .stock1 ul li, .stock2 ul li {
+    margin-right: 6px;
+  }
+  .stock1 ul li span, .stock2 ul li span {
+    font-size: 12px;
+  }
 }
 
 
