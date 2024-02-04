@@ -590,6 +590,14 @@ nav {
     font-size: 12px;
   }
 }
+@media screen and (max-width: 410px) {
+  .sales h3 {
+    font-size: 20px;
+  }
+  .stock1 ul li span, .stock2 ul li span {
+    font-size: 8px;
+  }
+}
 
 
 /* btc section */
