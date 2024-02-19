@@ -253,7 +253,7 @@ nav {
   background-position: fixed;
   background-size: cover;
   min-height: 90vh;
-  height: 60%;
+  /* height: 60%; */
 }
 .sliding-2 {
   width: 100%;
@@ -261,7 +261,7 @@ nav {
   background-position: fixed;
   background-size: cover;
   min-height: 90vh;
-  height: 60%;
+ /* height: 60%; */
 
 }
 
@@ -271,7 +271,7 @@ nav {
   background-position: fixed;
   background-size: cover;
   min-height: 90vh;
-  height: 60%;
+ /* height: 60%; */
 
 }
 
