@@ -229,7 +229,7 @@ nav {
   justify-content: center;
 }
 .swiper {
-  min-height: 90vh;
+  height: 100%;
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -252,7 +252,7 @@ nav {
   background-image:   linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('./images/crypto1.jpg');
   background-position: fixed;
   background-size: cover;
-  min-height: 90vh;
+  height: 100%;
   /* height: 60%; */
 }
 .sliding-2 {
@@ -260,7 +260,7 @@ nav {
   background-image: linear-gradient(to right, rgba(15, 15, 15, 0.7), rgba(0, 0, 0, 0.2)), url('./images/graph.jpg');
   background-position: fixed;
   background-size: cover;
-  min-height: 90vh;
+  height: 100%;
  /* height: 60%; */
 
 }
@@ -270,7 +270,7 @@ nav {
   background-image: linear-gradient(rgba(15, 15, 15, 0.3), rgba(0, 0, 0, 0.8)), url('./images/pexels-edmond-dantès-4342493.jpg');
   background-position: fixed;
   background-size: cover;
-  min-height: 90vh;
+  height: 100%;
  /* height: 60%; */
 
 }
