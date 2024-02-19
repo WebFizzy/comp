@@ -229,7 +229,7 @@ nav {
   justify-content: center;
 }
 .swiper {
-  height: 100%;
+  min-height: 90vh;
   overflow: hidden;
   width: 100%;
   position: relative;
